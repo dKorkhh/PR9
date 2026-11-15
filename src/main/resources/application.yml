@@ -1,0 +1,11 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: PR9
+  grpc:
+    server:
+      port: 9090
+      reflection:
+        enabled: true
